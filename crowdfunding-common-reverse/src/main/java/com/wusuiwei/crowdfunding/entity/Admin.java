@@ -23,4 +23,9 @@ public class Admin {
     * 密码
     */
     private String password;
+
+    /**
+    * 
+    */
+    private Integer userName;
 }

@@ -5,7 +5,7 @@
 
 <generatorConfiguration>
     <!--读取配置文件-->
-    <properties resource="/db.properties"/>
+    <properties resource="db.properties"/>
 
     <context id="MySQLContext" targetRuntime="MyBatis3">
         <!--设置文件编码-->
@@ -51,8 +51,10 @@
         </javaClientGenerator>
 
         <!-- 要生成的表 tableName是数据库中的表名或视图名 domainObjectName是实体类名，需要根据自己的需求修改-->
-        <table tableName="t_admin" domainObjectName="Admin" enableCountByExample="false"
+        <table tableName="t_admin"  domainObjectName="Admin" enableCountByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false" enableUpdateByExample="false">
+            <!-- 默认驼峰命名法 -->
+            <property name="useActualColumnNames" value="false"></property>
             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
         </table>
 

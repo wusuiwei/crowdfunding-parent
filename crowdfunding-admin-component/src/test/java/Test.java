@@ -1,7 +1,5 @@
-package com.atguigu;
-
-
-import com.atguigu.crowdfunding.mapper.SysDictionaryMapper;
+import com.wusuiwei.crowdfunding.entity.Admin;
+import com.wusuiwei.crowdfunding.mapper.AdminMapper;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
@@ -11,22 +9,27 @@ import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.SQLException;
 
+
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(locations = {"classpath*:/spring-persist-mybatis.xml"})
+@ContextConfiguration("classpath:spring-persist-mybatis.xml")
 public class Test {
 
     @Autowired
-    private DataSource dataSource;
+    DataSource datasource;
 
     @Autowired
-    private SysDictionaryMapper sysDictionaryMapper;
+    AdminMapper adminMapper;
 
     @org.junit.jupiter.api.Test
     void testDatasource() throws SQLException {
-        Connection connection = dataSource.getConnection();
+        Connection connection = datasource.getConnection();
         System.out.println(connection);
+    }
 
-        System.out.println(sysDictionaryMapper.selectOne());
 
+    @org.junit.jupiter.api.Test
+    void testMapper() {
+        Admin admin = adminMapper.selectByPrimaryKey(1);
+        System.out.println(admin);
     }
 }

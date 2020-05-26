@@ -15,16 +15,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b1eb53e-74e7-414b-b706-fae701e018ff" name="Default Changelist" comment="mybatis generator 配置与使用">
-      <change afterPath="$PROJECT_DIR$/crowdfunding-common-reverse/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crowdfunding-common-reverse/src/test/java/MapperTest.java" afterDir="false" />
+    <list default="true" id="6b1eb53e-74e7-414b-b706-fae701e018ff" name="Default Changelist" comment="加入 mbg 测试">
+      <change afterPath="$PROJECT_DIR$/crowdfunding-admin-component/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/权限管理.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding-common-reverse/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-common-reverse/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding-common-reverse/src/main/java/com/wusuiwei/crowdfunding/entity/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-common-reverse/src/main/java/com/wusuiwei/crowdfunding/entity/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding-common-reverse/src/main/java/com/wusuiwei/crowdfunding/generator/LombokAnnotationPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-common-reverse/src/main/java/com/wusuiwei/crowdfunding/generator/LombokAnnotationPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding-common-reverse/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-common-reverse/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-component/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-component/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-component/src/main/java/com/atguigu/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-component/src/main/java/com/atguigu/crowdfunding/mapper/SysDictionaryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-component/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-component/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-component/src/main/resources/mapper/SysDictionaryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-component/src/main/resources/spring-persist-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-component/src/main/resources/spring-persist-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crowdfunding-admin-entity/src/main/java/com/atguigu/entities/SysDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-admin-entity/src/main/java/com/wusuiwei/entities/SysDictionary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crowdfunding-common-reverse/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-common-reverse/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crowdfunding-common-reverse/src/main/resources/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crowdfunding-common-reverse/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +73,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/crowdfunding-admin-component/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -77,11 +81,15 @@
     <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\github\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\web\WEB-INF" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\github\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\src\main\webapp" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\github\crowdfunding-parent\crowdfunding-admin-component\src\main\resources" />
+      <recent name="D:\code\github\atcrowdfunding01-admin-parent\atcrowdfunding02-admin-webui\web\WEB-INF" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -90,7 +98,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MapperTest">
+  <component name="RunManager" selected="JUnit.Test.testMapper">
     <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Generator" />
       <module name="crowdfunding-common-reverse" />
@@ -107,27 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="crowdfunding-common-reverse" />
+    <configuration name="Test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crowdfunding-admin-component" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MapperTest" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="crowdfunding-admin-component" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.Test" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,13 +129,23 @@
       <module name="crowdfunding-admin-component" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.Test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <option name="METHOD_NAME" value="testDatasource" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.testMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="crowdfunding-admin-component" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="testMapper" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -222,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MapperTest" />
-        <item itemvalue="JUnit.MapperTest.test" />
-        <item itemvalue="Application.Generator" />
+        <item itemvalue="JUnit.Test.testMapper" />
         <item itemvalue="JUnit.Test.testDatasource" />
-        <item itemvalue="JUnit.Test" />
+        <item itemvalue="JUnit.Test.test" />
+        <item itemvalue="Application.Generator" />
+        <item itemvalue="JUnit.MapperTest" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +260,7 @@
       <workItem from="1590370644119" duration="163000" />
       <workItem from="1590370823586" duration="4836000" />
       <workItem from="1590381677136" duration="10281000" />
-      <workItem from="1590464584693" duration="6797000" />
+      <workItem from="1590464584693" duration="14241000" />
     </task>
     <task id="LOCAL-00001" summary="初始化，创建模块">
       <created>1589960093417</created>
@@ -273,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590401736207</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="加入 mbg 测试">
+      <created>1590480399204</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590480399204</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +335,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="初始化，创建模块" />
     <MESSAGE value="mybatis generator 配置与使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="mybatis generator 配置与使用" />
+    <MESSAGE value="加入 mbg 测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入 mbg 测试" />
   </component>
   <component name="WindowStateProjectService">
     <state x="731" y="253" key="#HTTP_Proxy" timestamp="1590373094936">
@@ -336,6 +347,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1590373748011" />
+    <state x="337" y="356" key="#SQL_Dialects" timestamp="1590480815837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="337" y="356" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1590480815837" />
     <state x="734" y="396" key="#Tomcat_Server" timestamp="1589878889267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -356,6 +371,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="488" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590048712020" />
+    <state x="645" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590495035119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="645" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1590495035119" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590395498410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -364,38 +383,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589960039328" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1590480023514">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1590496384716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590480023514" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1590480023514">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590496384716" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1590496384716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590480023514" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1590480023514">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590496384716" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1590496384716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590480023514" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1590480023514">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590496384716" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1590496384716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590480023514" />
-    <state width="1877" height="290" key="GridCell.Tab.1.bottom" timestamp="1590468374898">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590496384716" />
+    <state width="1877" height="290" key="GridCell.Tab.1.bottom" timestamp="1590480713164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590468374898" />
-    <state width="1877" height="290" key="GridCell.Tab.1.center" timestamp="1590468374897">
+    <state width="1877" height="290" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590480713164" />
+    <state width="1877" height="290" key="GridCell.Tab.1.center" timestamp="1590480713164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590468374897" />
-    <state width="1877" height="290" key="GridCell.Tab.1.left" timestamp="1590468374897">
+    <state width="1877" height="290" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590480713164" />
+    <state width="1877" height="290" key="GridCell.Tab.1.left" timestamp="1590480713164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590468374897" />
-    <state width="1877" height="290" key="GridCell.Tab.1.right" timestamp="1590468374897">
+    <state width="1877" height="290" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590480713164" />
+    <state width="1877" height="290" key="GridCell.Tab.1.right" timestamp="1590480713164">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590468374897" />
+    <state width="1877" height="290" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590480713164" />
     <state width="1293" height="603" key="GridCell.Tab.2.bottom" timestamp="1589881143667">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -432,10 +451,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="126" y="94" width="1539" height="852" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590375675263" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590401752797">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1590480407467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590401752797" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590480407467" />
     <state x="816" y="257" width="568" height="525" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1590478544044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -452,10 +471,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1589864587539" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1590479960080">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1590480429535">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590479960080" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590480429535" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1590398487810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -469,7 +488,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/crowdfunding-admin-component/src/main/java/com/atguigu/Test.java</url>
+          <url>file://$PROJECT_DIR$/crowdfunding-admin-component/src/test/java/Test.java</url>
           <line>28</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

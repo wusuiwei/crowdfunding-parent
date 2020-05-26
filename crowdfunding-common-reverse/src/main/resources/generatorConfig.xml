@@ -13,6 +13,8 @@
 
         <!-- 引入lombok注解及引用-->
         <plugin type="com.wusuiwei.crowdfunding.generator.LombokAnnotationPlugin"></plugin>
+        <!-- 重新生成mapper.xml文件 覆盖内容-->
+        <plugin type="com.wusuiwei.crowdfunding.generator.XMLGeneratorPlugin"></plugin>
 
         <!--注释生成器：配置自己的注释生成器类型-->
         <commentGenerator type="com.wusuiwei.crowdfunding.generator.CommentGenerator">
